@@ -36,7 +36,9 @@
     "versionPublish": "4.9.5",
     "screenshot": "screenshot.png",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/adnanfatayerji/Desktop/Websites/www_freeflowtoken_com"
   },
   "pages": {
     "index.html": {
