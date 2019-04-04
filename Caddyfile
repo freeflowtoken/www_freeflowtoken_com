@@ -1,0 +1,14 @@
+2076 {
+    bind 0.0.0.0
+    gzip
+    root /opt/www_freeflowtoken_com/
+    log stdout
+    git {
+        repo https://github.com/freeflowtoken/www_freeflowtoken_com.git
+        branch master
+        hook /webhook "test9278"
+        hook_type generic
+        key /opt/www_freeflowtoken_com/id_rsa
+        path /opt/www_freeflowtoken_com/
+    }
+}
