@@ -18,7 +18,7 @@ class Package(j.baseclasses.threebot_package):
         server = self.openresty
         server.install(reset=True)
         server.configure()
-        website = server.get_from_port(8380)
+        website = server.get_from_port(80)
         locations = website.locations.get("freeflowtoken_com")
         static_location = locations.locations_static.new()
         static_location.name = "static"
