@@ -1,0 +1,13 @@
+[source]
+name = "fftoken_com"
+description = "freeflowtoken.com website"
+threebot = "zerobot"
+version = "1.0.0"
+
+[actor]
+namespace = "fftoken_act_ns" 
+
+[[bcdbs]]
+namespace = "fftoken_ns"
+type = "redis"
+instance = "default"
